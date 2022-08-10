@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+    <title>Parcial 1</title>
+</head>
+<body>
+    <header class="estilo_bloque">
+        <img class="img-circulo" src="img/foto_perfil.jpg">
+        <p>Daniel Ruiz</p>
+
+        <nav>
+            <p>
+                <h4 align="center">
+                <a href="Inicio.html">Inicio</a> |
+                <a href="php.html">Php</a> |
+                <a href="Net.html">.Net</a> |
+                <a href="Java.html">Java</a> 
+                </h4>
+            </p>
+        </nav>
+    </header>
+
+
+    <div class="estilo_bloque">
+
+            <h3>Lenguajes de Programación</h3>
+                <ol type="1" start="1"> 
+                    <li >Paginas Web</li>
+                        <ul class="vi2"> 
+                            <li>Jsp</li>
+                            <li>Asp</li>
+                            <li>Php</li>
+                        </ul>
+                    <li>Aplicaciones</li>
+                        <ul class="vi1">
+                            <li>Java</li>
+                            <li>Visual Basic</li>
+                            <li>C#</li>
+                        </ul>
+
+
+    </div>
+    <div class="estilo_bloque">
+        <table>
+            <tr>
+                <td colspan="2">Programacion Web</td>
+            </tr>
+            <tr>
+                <td>Asp</td>
+                <td>Jsp</td>
+            </tr>
+            <tr>
+                <td>Php</td>
+                <td>Ruby</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Go</td>
+            </tr>
+
+               
+        </table>
+    </div>
+
+    <div class="estilo_bloque">
+
+        <form>
+            <input id="txt1" type="text" name="txt_nombres" placeholder="Ingrese Nombre" required>
+            <input id="txt2" type="text" name="txt_apellidos" placeholder="Ingrese Apellidos" required>
+            <input id="txt3" type="number" name="txt_telefono" placeholder="Ingrese Numero de Telefono" required>
+            <input id="txt4" type="email" name="txt_email" placeholder="Ingrese su Correo Electronico" required>
+            <input id="txt5" type="date" name="txt_fn" placeholder="Ingrese Fecha" required>
+
+            <h3>
+                <textarea name="txt_direccion" placeholder="Ingrese su direccion"></textarea>
+            </h3>
+            <input type="submit" class="boton" onclick="myfuction()" >
+            <script>
+                function myfuction(){
+                    alert(document.getElementById("txt1"))
+                    alert(document.getElementById("txt2"))
+                    alert(document.getElementById("txt3"))
+                    alert(document.getElementById("txt4"))
+                    alert(document.getElementById("txt5"))
+                }
+            </script>
+            
+        </form>
+    </div>
+
+    <div class="estilo_bloque" id="redes_sociales">
+        <h3>Redes Sociales</h3>
+        <a href="#"> <img src="img/facebook.png"> </a>
+        <a href="#"> <img src="img/twitter.png"> </a>
+    </div>
+
+    <footer>
+                <p  align=center>Aprende a Programar Fácil y Rápido &copy;</p>
+        </footer>
+        
+</body>
+</html>
